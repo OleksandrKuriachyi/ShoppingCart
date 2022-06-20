@@ -1,35 +1,5 @@
 let shop = document.getElementById("shop");
 
-let shopItemsData = [
-    {
-        id: "aaa",
-        name: "Casual Shirt",
-        price: 45,
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        img: "img/img-1.jpeg"
-    },
-    {
-        id: "bbb",
-        name: "Office Shirt",
-        price: 100,
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        img: "img/img-2.jpeg"
-    },
-    {
-        id: "ccc",
-        name: "T Shirt",
-        price: 25,
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        img: "img/img-3.jpeg"
-    },
-    {
-        id: "ddd",
-        name: "Mens Suit",
-        price: 300,
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        img: "img/img-4.jpeg"
-    }]
-
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
 // Function that generates cards in the shop
